@@ -9,8 +9,13 @@
 header{
     background-color: orange;   
     color: white;
-    text-decoration: none;   
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%; 
+    top: 0%; 
 }
+
 footer{
     background-color: #292626;
 }
@@ -54,8 +59,6 @@ main{
     margin-top: 3%;
 }
 
-
-
 span{
     text-decoration: line-through;
     color: red;
@@ -74,6 +77,11 @@ span{
     color: black
 }
 
+.red-box:hover {
+    content: ♥;
+    color: red;
+}
+
 .sale{
     width: 50px;
     height: 24px;
@@ -82,12 +90,10 @@ span{
     bottom: 21%;
     left: 3%;
     font-size: 18px;
-    line-height: 23spx;
-    
+    line-height: 23spx;    
     color: white;
     font-weight: bold;
     text-align: center;
-
 }
 
 .sostenibility{
@@ -103,7 +109,7 @@ span{
     text-align: center;
 }
 
-#photo{
+.photo{
     width: 388px;
     height: 560px;
 }
@@ -121,3 +127,23 @@ span{
     color: white;
     margin: 0 14%;
 }
+
+.over-1:hover {
+    content: url(./img/1b.webp);
+}
+.over-2:hover {
+    content: url(./img/2b.webp);
+}
+.over-3:hover {
+    content: url(./img/3b.webp);
+}
+.over-4:hover {
+    content: url(./img/4b.webp);
+}
+.over-5:hover {
+    content: url(./img/5b.webp);
+}
+.over-6:hover {
+    content: url(./img/6b.webp);
+}
+
