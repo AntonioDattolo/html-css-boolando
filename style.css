@@ -21,6 +21,7 @@ footer{
     justify-content: space-around ; 
     flex-wrap: wrap;  
     margin: 0% 14%;
+    padding-top: 0.5%;
     
 }
 
@@ -43,6 +44,10 @@ a{
     width: 20%;
     
     
+}
+
+.right{
+    text-align: right;
 }
 
 main{
