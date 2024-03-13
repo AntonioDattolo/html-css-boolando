@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+header{
+    background-color: orange;   
+    color: white;
+    text-decoration: none;   
+}
+footer{
+    background-color: #292626;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ; 
+    flex-wrap: wrap;  
+    margin: 0% 14%;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 15%;
+    
+}
+
+.center{
+    width: 60%;  
+    text-align: center;  
+}
+
+.side{
+    width: 20%;
+    
+    
+}
+
+main{
+    margin-top: 3%;
+}
+
+
+
+span{
+    text-decoration: line-through;
+    color: red;
+}
+
+.red-box{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    bottom: 85%;
+    left: 85%;
+    font-size: 26px;
+    text-align: center;
+    line-height: 35px;
+    color: black
+}
+
+.sale{
+    width: 50px;
+    height: 24px;
+    background-color: red;
+    position: relative;
+    bottom: 21%;
+    left: 3%;
+    font-size: 18px;
+    line-height: 23spx;
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.sostenibility{
+    background-color: green;
+    color: white;
+    position: relative;
+    bottom: 24.4%;
+    left: 19%;
+    font-size: 18px;
+    line-height: 23px;
+    width: 100px;
+    height: 24px;
+    text-align: center;
+}
+
+#photo{
+    width: 388px;
+    height: 560px;
+}
+
+.card{
+    display: inline-block;
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+    min-height: 100px; 
+    color: white;
+    margin: 0 14%;
+}
